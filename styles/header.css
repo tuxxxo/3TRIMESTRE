@@ -69,5 +69,24 @@
     display: block;
     background-color: bisque;
    }
+   .opcoes{
+    display:flex;
+   }
+
+   .lista-menu_item{
+    padding: 0 1em;
+   }
    
+   .opcoes_link{
+    text-decoration: none;
+    color: black
+   }
+
+   .container__imagem--transparente{
+      display: none;
+   }
+
+   .cabecalho__menu-hamburguer{
+    display: none;
+   }
  }
