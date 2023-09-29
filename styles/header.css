@@ -27,9 +27,6 @@
 
 .lista-menu{
     display: none;
-    position: absolute;
-    top: 100%;
-    background: var(--branco);
     width: 60vw;
 }
 
@@ -62,6 +59,10 @@
  display: none;
 }
 
+.opcoes{
+  display: none;
+}
+
 @media screen and (min-width: 824px){
    .titulo_cabecalho{
     font-size: 30px;
@@ -87,6 +88,14 @@
    }
 
    .cabecalho__menu-hamburguer{
+    display: none;
+   }
+   .container__botao:checked~.lista-menu{
+    display: block;
+    width: auto;
+   }
+
+   .container__botao{
     display: none;
    }
  }
